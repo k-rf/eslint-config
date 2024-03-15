@@ -1,0 +1,15 @@
+{
+  "version": "0.2",
+  "gitignoreRoot": [".."],
+  "ignorePaths": ["/.devcontainer/", "/node_modules/"],
+  "words": [
+    "commandhistory",
+    "devcontainer",
+    "esbuild",
+    "linebreak",
+    "paralleldrive",
+    "Parens",
+    "Prettierrc",
+    "tada"
+  ]
+}
