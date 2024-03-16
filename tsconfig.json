@@ -23,7 +23,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitOverride": true
   },
-  "include": ["src"],
+  "include": ["**/*.ts"],
   "exclude": ["node_modules"],
   "extends": "./tsconfig.paths.json"
 }

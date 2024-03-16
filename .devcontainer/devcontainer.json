@@ -1,10 +1,10 @@
 {
-  "name": "template-typescript",
-  "remoteUser": "template-typescript",
+  "name": "eslint-config",
+  "remoteUser": "eslint-config",
   "dockerComposeFile": "./compose.dev.yaml",
   "service": "app",
   "postCreateCommand": "bun install",
-  "workspaceFolder": "/template-typescript",
+  "workspaceFolder": "/workspaces/eslint-config",
   "overrideCommand": true,
   "shutdownAction": "none",
   "customizations": {

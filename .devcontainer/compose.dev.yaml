@@ -7,6 +7,8 @@ services:
         - REMOTE_USER=${APP_REMOTE_USER}
         - REMOTE_WORKSPACES=${APP_REMOTE_WORKSPACES}
         - REMOTE_HOME=${APP_REMOTE_HOME}
+    env_file:
+      - .env.local
     container_name: ${APP_CONTAINER_NAME}
     working_dir: ${APP_REMOTE_WORKSPACES}
     user: ${APP_REMOTE_USER}
