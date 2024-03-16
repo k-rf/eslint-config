@@ -92,11 +92,8 @@ export const eslintConfig = tsEslint.config(
   ...tsEslint.configs.recommendedTypeChecked,
   {
     languageOptions: {
-      parserOptions: {
-        project: true,
-        tsconfigRootDir: import.meta.dirname,
-      },
       globals: {
+        ...globals.browser,
         ...globals.node,
       },
     },
