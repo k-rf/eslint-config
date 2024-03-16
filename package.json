@@ -1,6 +1,6 @@
 {
   "name": "@k-rf/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint configuration for @k-rf",
   "author": "Kawano Kenichi <kenichi.k.820@gmail.com>",
   "repository": {
@@ -26,7 +26,8 @@
     "check:all": "npm-run-all -s check:type check:format check:lint",
     "test": "jest --runInBand",
     "test:cov": "jest --runInBand --coverage=true",
-    "test:watch": "jest --runInBand --watch"
+    "test:watch": "jest --runInBand --watch",
+    "prepublish": "bun run build"
   },
   "dependencies": {
     "@cspell/eslint-plugin": "^8.6.0",
