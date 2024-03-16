@@ -1,6 +1,6 @@
 {
   "name": "@k-rf/eslint-config",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "ESLint configuration for @k-rf",
   "author": "Kawano Kenichi <kenichi.k.820@gmail.com>",
   "repository": {
