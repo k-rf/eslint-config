@@ -95,7 +95,7 @@ export const eslintConfig = tsEslint.config(
   {
     languageOptions: {
       parserOptions: {
-        project: ["./tsconfig.eslint.json", "./tsconfig.json"],
+        project: true,
         tsconfigRootDir: import.meta.dirname,
       },
       globals: {
