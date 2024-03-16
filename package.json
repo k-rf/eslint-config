@@ -9,15 +9,17 @@
   },
   "license": "MIT",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "exports": {
     ".": {
-      "import": "./index.js"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
     "prepare": "husky install",
     "clean": "rimraf dist",
+    "build": "bun run clean && tsc --project tsconfig.json",
     "lint": "eslint --fix --cache .",
     "format": "prettier . --write",
     "typing": "tsc --project tsconfig.json --pretty --noEmit",

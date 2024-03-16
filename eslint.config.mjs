@@ -4,6 +4,7 @@ import tsEslint from "typescript-eslint";
 import globals from "globals";
 
 export default tsEslint.config(
+  { ignores: ["src/index.ts"] },
   eslint.configs.recommended,
   ...tsEslint.configs.recommendedTypeChecked,
   {
