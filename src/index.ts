@@ -16,7 +16,6 @@ import type { ConfigWithExtends } from "typescript-eslint";
  * import に関するルール
  */
 export const importRules: ConfigWithExtends = {
-  files: ["**/*.{,c,m}ts"],
   settings: {
     "import/resolver": {
       typescript: {},
@@ -57,7 +56,6 @@ export const importRules: ConfigWithExtends = {
  * TypeScript に関するルール
  */
 export const tsRules: ConfigWithExtends = {
-  files: ["**/*.ts"],
   plugins: {
     "@cspell": pluginCspell,
     sonarjs: pluginSonarJs,
